@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1DF2EC68-BDE7-4EF9-9171-FBFC3519F2A6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>DataStructures</RootNamespace>
+    <RootNamespace>BinarySearch</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <ProjectName>BinarySearch</ProjectName>
   </PropertyGroup>

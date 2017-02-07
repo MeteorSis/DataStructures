@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearch", "DataStructures\DataStructures.vcxproj", "{1DF2EC68-BDE7-4EF9-9171-FBFC3519F2A6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearch", "BinarySearch\BinarySearch.vcxproj", "{1DF2EC68-BDE7-4EF9-9171-FBFC3519F2A6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RecursiveFactorial", "RecursiveFactorial\RecursiveFactorial.vcxproj", "{E12989EB-F541-47AF-8F49-9F98EE96DECA}"
 EndProject
