@@ -5,13 +5,13 @@
 
 int WhoIsPrecede(LData p1, LData p2)
 {
-	if (p1->xpos > p2->xpos)
+	if (p1->xpos < p2->xpos)
 		return 0;
-	else if (p1->xpos < p2->xpos)
+	else if (p1->xpos > p2->xpos)
 		return 1;
 	else
 	{
-		if (p1->ypos > p2->ypos)
+		if (p1->ypos < p2->ypos)
 			return 0;
 		else
 			return 1;
