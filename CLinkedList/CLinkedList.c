@@ -1,5 +1,6 @@
 #include "CLinkedList.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 void ListInit(List * plist)
 {
