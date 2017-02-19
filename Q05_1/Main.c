@@ -1,10 +1,16 @@
 #include <stdio.h>
+#include <string.h>
 #include "CLinkedList.h"
 
 
 Employee * WhosNightDuty(List * plist, char * name, int day)
 {
-
+	Employee *empPtr;
+	if (LFirst(plist, &empPtr))
+	{
+		if (strcmp(empPtr->name, name) == 0)
+	}
+		strcmp(empPtr
 }
 
 int main(void)
@@ -42,12 +48,12 @@ int main(void)
 	ShowEmployeeInfo(empPtr);
 
 
-	if (LFirst(&list, empPtr))
+	if (LFirst(&list, &empPtr))
 	{
 		free(empPtr);
 		for (i = 0; i < LCount(&list) - 1; ++i)
 		{
-			if(LNext(&list, empPtr))
+			if(LNext(&list, &empPtr))
 				free(empPtr);
 		}
 	}
