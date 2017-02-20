@@ -1,4 +1,5 @@
 #include "Employee.h"
+#include <stdio.h>
 
 void ShowEmployeeInfo(Employee * emp)
 {
